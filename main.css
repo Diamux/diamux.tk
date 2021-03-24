@@ -31,8 +31,8 @@ ul.topnav li.right {
     }
     div.text {
       font-size: 44px;
-      width: 75% !important;
-      margin-top: 10%;
+      width: 50% !important;
+      margin-top: 20%;
     }
     a.discord {
             color: white;
@@ -47,6 +47,11 @@ ul.topnav li.right {
     a.twitter {
             color: white;
             background-color: #1DA1F2;
+            text-shadow: 1px 1px #14171A;
+    }
+    a.osu {
+            color: white;
+            background-color: #ff66aa;
             text-shadow: 1px 1px #14171A;
     }
     a.instagram {
@@ -162,6 +167,11 @@ li a:hover {
 .twitter:hover {
     color: white;
     background-color: #1DA1F2;
+    text-shadow: 1px 1px #14171A;
+}
+.osu:hover {
+    color: white;
+    background-color: #ff66aa;
     text-shadow: 1px 1px #14171A;
 }
 .instagram:hover {
