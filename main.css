@@ -1,0 +1,256 @@
+/* I hope you will enjoy my CSS code ^^ */
+.container {
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;  
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0px 8px 35px 2px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 0px 8px 35px 2px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 8px 35px 2px rgba(0,0,0,0.54);
+}
+ul.topnav li.right {
+    float: right;
+    background-color: #ffffff;
+    cursor: default;
+}
+@media screen and (max-width: 750px) {
+    ul.topnav li.right {
+        display: none;
+    } 
+    ul.topnav li {
+        float: none;
+    }
+    div.text:hover {
+        font-size: 50px;
+    }
+    div.text {
+      font-size: 44px;
+      width: 75% !important;
+      margin-top: 10%;
+    }
+    a.discord {
+            color: white;
+            text-shadow: 1px 1px #14171A;
+            background-color: #7289da;
+    }
+    a.github {
+            color: white;
+            text-shadow: 1px 1px #14171A;
+            background-color: #24292e;
+    }
+    a.twitter {
+            color: white;
+            background-color: #1DA1F2;
+            text-shadow: 1px 1px #14171A;
+    }
+    a.instagram {
+            color: white;
+            text-shadow: 1px 1px #14171A;
+            background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    }
+    a.youtube {
+            color: white;
+            text-shadow: 1px 1px #141414;
+            background-color: #FF0000;
+    }
+}
+.text {
+    box-shadow: 8px 8px 35px -1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 8px 8px 35px -1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 8px 8px 35px -1px rgba(0,0,0,0.54);
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    background-color: white;
+    font-family: 'Lato';
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    padding: 15px;
+    position: fixed;
+    transition: 0.25s cubic-bezier(0.4,-0.75, 0.50, 1.4);
+}
+.header {
+    color: white;
+    cursor: help;
+    text-shadow: 3px 3px rgb(255, 30, 0);
+    background-color: black;
+}
+a {
+color: inherit; 
+}
+.text:hover {
+    box-shadow: 7px 8px 35px -1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 7px 8px 35px -1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 7px 8px 35px -1px rgba(0,0,0,0.54);
+    font-size: 80px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: white;
+    text-shadow: 2px 2px #141414;
+    cursor: help;
+}
+#wrapper { 
+    height: 100%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    /*
+    background-color: rgb(233, 222, 222);
+    */
+    background: linear-gradient(124deg, #e9dede, rgb(255, 246, 248));
+    background-size: 1800% 1800%; /* WIP */
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}
+ul {
+    font-family: 'Lato';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+li {
+    float: left;
+    text-align: center;
+}
+li a {
+    font-size: 20px;
+    display: block;
+    float: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: dotted;
+    border-color: white;
+    border-width: 1px;
+    border-color: black;
+    transition: 0.3s;
+}
+li a:hover {
+    text-shadow: 1px 1px #141414;
+    background-color: #000000;
+    color: white;
+}
+/* social media */
+.discord:hover {
+    color: white;
+    text-shadow: 1px 1px #14171A;
+    background-color: #7289da;
+}
+.github:hover {
+    color: white;
+    text-shadow: 1px 1px #14171A;
+    background-color: #24292e;
+}
+.twitter:hover {
+    color: white;
+    background-color: #1DA1F2;
+    text-shadow: 1px 1px #14171A;
+}
+.instagram:hover {
+    color: white;
+    text-shadow: 1px 1px #14171A;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.youtube:hover {
+    color: white;
+    text-shadow: 1px 1px #141414;
+    background-color: #FF0000;
+}
+/* end of social media section */
+.footer {
+    box-shadow: 0px 8px 35px 2px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 0px 8px 35px 2px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 8px 35px 2px rgba(0,0,0,0.54);
+    font-size: 20px;
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px 11px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'lato';
+    text-align: center;
+    transition: 0.25s cubic-bezier(0.4,-0.75, 0.50, 1.4);
+    cursor: default;
+}
+.smallfooter {
+    font-size: 13px;
+    transition: 0.25s cubic-bezier(0.4,-0.75, 0.50, 1.4);
+}
+.footer:hover {
+    font-size: 25px;
+}
+.footer:hover .smallfooter {
+    font-size: 15.6px;
+}
+::selection {
+    color: rgb(255, 30, 0);
+}
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+article {
+    width: 50%;
+}
