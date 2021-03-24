@@ -1,0 +1,2 @@
+# Diamux.tk
+Personal website.
