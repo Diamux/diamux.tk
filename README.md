@@ -1,2 +1,2 @@
 # Diamux.tk
-Personal website.
+Personal website under the MIT license
