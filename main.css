@@ -138,7 +138,7 @@ li a {
     font-size: 20px;
     display: block;
     float: none;
-    color: rgb(0, 0, 0);
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -262,4 +262,40 @@ li a:hover {
 }
 article {
     width: 50%;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    .text {
+        color: white;
+        background-color: #000000;
+        border: 2px solid #000000;
+        box-shadow: #000000;
+    }
+    .text:hover {
+        color: black;
+        background-color: #ffffff;
+        border: 2px solid #ffffff;
+        text-shadow: 2px 2px #fcfafa;
+    }
+    #wrapper {
+        background: #050505;
+    }
+    .footer {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    ul.topnav {
+        background-color: #000000;
+    }
+    ul.topnav li.right {
+        background-color: #000000;
+    }
+    ul.topnav li.right:hover{
+        /* Yes, this doesn't work*/
+        background-color: #000000;
+    }
+    li a {
+        color: white;
+    }
 }
