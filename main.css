@@ -66,13 +66,13 @@ ul.topnav li.right {
     }
 }
 .text {
-    box-shadow: 8px 8px 35px -1px rgba(0,0,0,0.54);
-    -webkit-box-shadow: 8px 8px 35px -1px rgba(0,0,0,0.54);
-    -moz-box-shadow: 8px 8px 35px -1px rgba(0,0,0,0.54);
+    box-shadow: 8px 8px 35px -1px #0000008a;
+    -webkit-box-shadow: 8px 8px 35px -1px #0000008a;
+    -moz-box-shadow: 8px 8px 35px -1px #0000008a;
     border-radius: 15px;
     border: 2px solid #ffffff;
     text-align: center;
-    background-color: white;
+    background-color: #ffffff;
     font-family: 'Lato';
     position: fixed;
     left: 50%;
@@ -84,12 +84,6 @@ ul.topnav li.right {
     position: fixed;
     transition: 0.25s cubic-bezier(0.4,-0.75, 0.50, 1.4);
 }
-.header {
-    color: white;
-    cursor: help;
-    text-shadow: 3px 3px rgb(255, 30, 0);
-    background-color: black;
-}
 a {
 color: inherit; 
 }
@@ -99,7 +93,7 @@ color: inherit;
     -moz-box-shadow: 7px 8px 35px -1px rgba(0,0,0,0.54);
     font-size: 80px;
     border: 2px solid #000000;
-    background-color: #000000;
+    background-color: #070707;
     color: white;
     text-shadow: 2px 2px #141414;
     cursor: help;
@@ -117,10 +111,6 @@ color: inherit;
     */
     background: linear-gradient(124deg, #e9dede, rgb(255, 246, 248));
     background-size: 1800% 1800%; /* WIP */
-    -webkit-animation: rainbow 18s ease infinite;
-    -z-animation: rainbow 18s ease infinite;
-    -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;
 }
 ul {
     font-family: 'Lato';
@@ -216,26 +206,6 @@ li a:hover {
 ::selection {
     color: rgb(255, 30, 0);
 }
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -263,13 +233,12 @@ li a:hover {
 article {
     width: 50%;
 }
-
 /* dark mode */
 @media (prefers-color-scheme: dark) {
     .text {
         color: white;
-        background-color: #000000;
-        border: 2px solid #000000;
+        background-color: #070707;
+        border: 2px solid #070707;
         box-shadow: #000000;
     }
     .text:hover {
@@ -282,18 +251,19 @@ article {
         background: #050505;
     }
     .footer {
-        background-color: #000000;
+        background-color: #070707;
         color: #ffffff;
     }
     ul.topnav {
-        background-color: #000000;
+        background-color: #070707;
     }
     ul.topnav li.right {
-        background-color: #000000;
+        background-color: #070707;
     }
     ul.topnav li.right:hover{
-        /* Yes, this doesn't work*/
-        background-color: #000000;
+        /* Yes, this doesn't work
+        background-color: #cebdbd;
+        */
     }
     li a {
         color: white;
