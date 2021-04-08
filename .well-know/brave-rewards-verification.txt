@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: diamux.tk
+Token: e41927adc7c34c6510f7aecf57d12ac0763849b4a55ba6f34ae4998aa07712ea
